@@ -10,7 +10,7 @@ async function sendRequest(submission) {
         submission: `CIT{${submission}}`
     });
 
-    const response = await fetch(url, {
+    const response = await fetch(url, { 
         method: 'POST',
         headers: headers,
         credentials: 'include',
